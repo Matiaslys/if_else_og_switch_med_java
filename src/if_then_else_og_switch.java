@@ -14,7 +14,7 @@ public class if_then_else_og_switch {
         int Betalt = penge.nextInt();
 
         // her siger jeg at hvis man betaler for lidt så kan man ikke købe noget
-        if (Betalt > 20) {
+        if (Betalt >= 20) {
             // meget tekst
             System.out.println("Du har indbetalt " + Betalt + " kr");
             System.out.println("Du kan nu vælge og købe");
